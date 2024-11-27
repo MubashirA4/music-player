@@ -8,22 +8,26 @@ import { IoCallOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className='footer bg-neutral-800 text-white font-vazirmatn grid grid-cols-5'>
+    <div className='footer grid grid-cols-5 bg-neutral-800 border-t-2 mt-10 text-white shadow-t font-vazirmatn'>
       <div className="about mt-8">
         <h4 className='text-3xl font-bold'>About</h4>
-        <p className='font-medium'>Melodies is a website that has been created for over <span className='text-pink-500'> 5 year’s </span>now and it is one of the most famous music player website’s in the world. in this website you can listen and download songs for free. also of you want no limitation you can buy our <span className='text-sky-600'> premium pass’s.</span></p>
+        <p className='font-thin'>Melodies is a website that has been created for over <span className='text-pink-500'> 5 year’s </span>now and it is one of the most famous music player website’s in the world. in this website you can listen and download songs for free. also of you want no limitation you can buy our <span className='text-sky-600'> premium pass’s.</span></p>
       </div>
       <div className="melodies mt-8">
-        <h4 className='text-2xl font-bold underline text-center'>Melodies</h4>
-        <ul className='text-center'>
+        <div className='border-b-4 w-fit m-auto pb-2'>
+        <h4 className='text-2xl font-bold text-center'>Melodies</h4>
+        </div>
+        <ul className='flex flex-col gap-2 text-center pt-3'>
           <li><Link to="/">Songs</Link></li>
           <li><Link to="/">Radio</Link></li>
           <li><Link to="/">Podcast</Link></li>
         </ul>
       </div>
       <div className="melodies mt-8">
-        <h4 className='text-2xl font-bold underline text-center'>Access</h4>
-        <ul className='text-center'>
+      <div className='border-b-4 w-fit m-auto pb-2'>
+        <h4 className='text-2xl font-bold text-center'>Access</h4>
+        </div>
+        <ul className='flex flex-col gap-2 text-center pt-3'>
           <li><Link to="/">Explore</Link></li>
           <li><Link to="/">Artists</Link></li>
           <li><Link to="/">Playlists</Link></li>
@@ -32,8 +36,10 @@ const Footer = () => {
         </ul>
       </div>
       <div className="melodies mt-8">
-        <h4 className='text-2xl font-bold underline text-center'>Contact</h4>
-        <ul className='text-center'>
+      <div className='border-b-4 w-fit m-auto pb-2'>
+        <h4 className='text-2xl font-bold text-center'>Contact</h4>
+        </div>
+        <ul className='flex flex-col gap-2 text-center pt-3'>
           <li><Link to="/">About</Link></li>
           <li><Link to="/">Policy</Link></li>
           <li><Link to="/">Social Media</Link></li>
