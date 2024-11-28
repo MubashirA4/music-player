@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="absolute w-full">
+    <div className="relative w-full">
       <nav className="bg-transparent w-full">
         <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
           {/* Search Bar */}
@@ -11,7 +11,7 @@ const Header = () => {
             <input
               type="text"
               placeholder="Search..."
-              className="w-full bg-neutral-800 text-white rounded-lg pl-10 pr-4 py-2 focus:ring-2 focus:ring-pink-500 focus:outline-none"
+              className="w-full bg-neutral-900 text-white rounded-lg pl-10 pr-4 py-2 focus:ring-2 focus:ring-pink-500 focus:outline-none"
             />
             <svg
               className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"
@@ -36,7 +36,7 @@ const Header = () => {
                 to="#"
                 className="hover:text-pink-500 transition-colors"
               >
-                Home
+                About
               </Link>
             </li>
             <li>
@@ -44,7 +44,7 @@ const Header = () => {
                 to="#"
                 className="hover:text-pink-500 transition-colors"
               >
-                About
+                Contact
               </Link>
             </li>
             <li>
@@ -57,17 +57,17 @@ const Header = () => {
             </li>
           </ul>
 
-          {/* Login and Signup */ }
+          {/* Login and Signup */}
           <div className="flex space-x-4">
-            <button
+            <Link to="/signin"
               className="text-pink-500 hover:bg-pink-700 border border-pink-500 hover:text-white px-12 py-2 rounded-md transition-all"
             >
               Login
-            </button>
-            <button
-className="text-pink-500 hover:bg-pink-700 border border-pink-500 hover:text-white px-12 py-2 rounded-md transition-all"            >
+            </Link>
+            <Link to="/Signup"
+              className="text-pink-500 hover:bg-pink-700 border border-pink-500 hover:text-white px-12 py-2 rounded-md transition-all"            >
               Signup
-            </button>
+            </Link>
           </div>
         </div>
       </nav>

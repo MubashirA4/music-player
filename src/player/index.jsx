@@ -12,7 +12,7 @@ const MusicPlayerPage = () => {
   const [currentSongIndex, setCurrentSongIndex] = useState(0); // Track current song
   const [progress, setProgress] = useState(0); // Track song progress
   const [volume, setVolume] = useState(0.5); // Track volume (0 to 1)
-  const [isMute, setisMute] = useState(true);
+  const [isMute, setisMute] = useState(false);
   const audioRef = useRef(null); // Reference to the audio element
 
   // Handle play/pause button

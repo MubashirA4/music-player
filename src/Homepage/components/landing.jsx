@@ -6,7 +6,7 @@ import Image from '../assets/image.png';
 const Landing = () => {
   return (
     <>
-      <div className="relative w-full h-screen overflow-hidden mt-10 rounded-md">
+      <div className="relative w-full h-screen overflow-hidden mt-4 rounded-md">
         {/* Background Image */}
         <img
           src={Image}
@@ -16,7 +16,7 @@ const Landing = () => {
         {/* Content */}
         <div className="absolute z-10 top-2/3 transform -translate-y-1/2 left-7 text-white">
           <h2 className="text-4xl font-bold leading-normal">
-            All the <span className="text-pink-500">Best Songs</span>
+            All the <span className="text-pink-700">Best Songs</span>
             <br /> in one place
           </h2>
           <p className="tracking-wide mt-12 mb-8">

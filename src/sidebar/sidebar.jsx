@@ -25,7 +25,7 @@ const Sidebar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" className="flex items-center text-white hover:text-pink-500">
+              <Link to="/discover" className="flex items-center text-white hover:text-pink-500">
                 <FiSearch className="mr-3 text-xl" /> Discover
               </Link>
             </li>

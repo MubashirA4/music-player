@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='footer grid grid-cols-5 bg-neutral-800 border-t-2 mt-10 text-white shadow-t font-vazirmatn'>
       <div className="about mt-8">
         <h4 className='text-3xl font-bold'>About</h4>
-        <p className='font-thin'>Melodies is a website that has been created for over <span className='text-pink-500'> 5 year’s </span>now and it is one of the most famous music player website’s in the world. in this website you can listen and download songs for free. also of you want no limitation you can buy our <span className='text-sky-600'> premium pass’s.</span></p>
+        <p className='font-thin'>Melodies is a website that has been created for over <span className='text-pink-700'> 5 year’s </span>now and it is one of the most famous music player website’s in the world. in this website you can listen and download songs for free. also of you want no limitation you can buy our <span className='text-sky-600'> premium pass’s.</span></p>
       </div>
       <div className="melodies mt-8">
         <div className='border-b-4 w-fit m-auto pb-2'>
