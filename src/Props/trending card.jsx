@@ -19,9 +19,9 @@ const TrendingCard = ({no, image,title,text,releaseDate, album, time}) => {
                 <p className='pt-4 pr-14'>{releaseDate}</p>
             </div>
             <div>
-                <h2 className='text-center'>{album}</h2>
+                <h2 className='text-center pt-4'>{album}</h2>
             </div>
-            <div className="time flex justify-end gap-2 pr-5">
+            <div className="time flex justify-end gap-2 pr-10 pt-4">
                <CiHeart className='text-pink-500' size={26}/> {time}
             </div>
     </div>

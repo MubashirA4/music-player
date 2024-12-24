@@ -4,7 +4,7 @@ import { FiHome, FiSearch, FiMusic, FiUsers, FiClock, FiStar, FiSettings, FiLogO
 
 const Sidebar = () => {
   return (
-    <div className="sidebar pt-10 bg-neutral-800 w-64 font-vazirmatn border-r-2 border-pink-700">
+    <div className="sidebar pt-10 bg-neutral-800 w-64 h-full font-vazirmatn border-r-2 border-pink-700">
       <div className="mx-12">
         {/* Brand Logo */}
         <div>

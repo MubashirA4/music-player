@@ -65,8 +65,8 @@ const Songs = () => {
           <div><p className='text-center pl-32'>Duration</p></div>
         </div>
         <TrendingCard no={1} image={Trending1} title="Sorforce" text="The neighberhood" releaseDate="Nov 4, 2023" album="Hard to Imagine the Neighbourhood Ever Changing" time="3:26" />
-        <TrendingCard no={1} image={Trending1} title="Sorforce" text="The neighberhood" releaseDate="Nov 4, 2023" album="Hard to Imagine the Neighbourhood Ever Changing" time="3:26" />
-        <TrendingCard no={1} image={Trending1} title="Sorforce" text="The neighberhood" releaseDate="Nov 4, 2023" album="Hard to Imagine the Neighbourhood Ever Changing" time="3:26" />
+        <TrendingCard no={2} image={Trending1} title="Sorforce" text="The neighberhood" releaseDate="Nov 4, 2023" album="Hard to Imagine the Neighbourhood Ever Changing" time="3:26" />
+        <TrendingCard no={3} image={Trending1} title="Sorforce" text="The neighberhood" releaseDate="Nov 4, 2023" album="Hard to Imagine the Neighbourhood Ever Changing" time="3:26" />
       </div>
 
       {/* Popular Artists */}
